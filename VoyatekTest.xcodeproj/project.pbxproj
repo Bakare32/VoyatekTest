@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3D44132D696AB4002507A0 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = ED3D44122D696AB4002507A0 /* SDWebImage */; };
+		ED3D44152D696AB4002507A0 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED3D44142D696AB4002507A0 /* SDWebImageMapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA0F65A2D6917AD005587AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA0F63B2D6917AA005587AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA0F6422D6917AA005587AB;
+			remoteInfo = VoyatekTest;
+		};
+		EDA0F6642D6917AD005587AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA0F63B2D6917AA005587AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA0F6422D6917AA005587AB;
+			remoteInfo = VoyatekTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDA0F6432D6917AA005587AB /* VoyatekTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoyatekTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA0F6592D6917AD005587AB /* VoyatekTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyatekTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA0F6632D6917AD005587AB /* VoyatekTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyatekTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ED3D43AF2D69528C002507A0 /* Exceptions for "VoyatekTest" folder in "VoyatekTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EDA0F6422D6917AA005587AB /* VoyatekTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ED3D43A72D69528C002507A0 /* VoyatekTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ED3D43AF2D69528C002507A0 /* Exceptions for "VoyatekTest" folder in "VoyatekTest" target */,
+			);
+			path = VoyatekTest;
+			sourceTree = "<group>";
+		};
+		EDA0F65C2D6917AD005587AB /* VoyatekTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VoyatekTestTests;
+			sourceTree = "<group>";
+		};
+		EDA0F6662D6917AD005587AB /* VoyatekTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VoyatekTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA0F6402D6917AA005587AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3D44152D696AB4002507A0 /* SDWebImageMapKit in Frameworks */,
+				ED3D44132D696AB4002507A0 /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA0F6562D6917AD005587AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA0F6602D6917AD005587AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA0F63A2D6917AA005587AB = {
+			isa = PBXGroup;
+			children = (
+				ED3D43A72D69528C002507A0 /* VoyatekTest */,
+				EDA0F65C2D6917AD005587AB /* VoyatekTestTests */,
+				EDA0F6662D6917AD005587AB /* VoyatekTestUITests */,
+				EDA0F6442D6917AA005587AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA0F6442D6917AA005587AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0F6432D6917AA005587AB /* VoyatekTest.app */,
+				EDA0F6592D6917AD005587AB /* VoyatekTestTests.xctest */,
+				EDA0F6632D6917AD005587AB /* VoyatekTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA0F6422D6917AA005587AB /* VoyatekTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA0F66C2D6917AD005587AB /* Build configuration list for PBXNativeTarget "VoyatekTest" */;
+			buildPhases = (
+				EDA0F63F2D6917AA005587AB /* Sources */,
+				EDA0F6402D6917AA005587AB /* Frameworks */,
+				EDA0F6412D6917AA005587AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ED3D43A72D69528C002507A0 /* VoyatekTest */,
+			);
+			name = VoyatekTest;
+			packageProductDependencies = (
+				ED3D44122D696AB4002507A0 /* SDWebImage */,
+				ED3D44142D696AB4002507A0 /* SDWebImageMapKit */,
+			);
+			productName = VoyatekTest;
+			productReference = EDA0F6432D6917AA005587AB /* VoyatekTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA0F6582D6917AD005587AB /* VoyatekTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA0F6712D6917AD005587AB /* Build configuration list for PBXNativeTarget "VoyatekTestTests" */;
+			buildPhases = (
+				EDA0F6552D6917AD005587AB /* Sources */,
+				EDA0F6562D6917AD005587AB /* Frameworks */,
+				EDA0F6572D6917AD005587AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA0F65B2D6917AD005587AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EDA0F65C2D6917AD005587AB /* VoyatekTestTests */,
+			);
+			name = VoyatekTestTests;
+			packageProductDependencies = (
+			);
+			productName = VoyatekTestTests;
+			productReference = EDA0F6592D6917AD005587AB /* VoyatekTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDA0F6622D6917AD005587AB /* VoyatekTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA0F6742D6917AD005587AB /* Build configuration list for PBXNativeTarget "VoyatekTestUITests" */;
+			buildPhases = (
+				EDA0F65F2D6917AD005587AB /* Sources */,
+				EDA0F6602D6917AD005587AB /* Frameworks */,
+				EDA0F6612D6917AD005587AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA0F6652D6917AD005587AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EDA0F6662D6917AD005587AB /* VoyatekTestUITests */,
+			);
+			name = VoyatekTestUITests;
+			packageProductDependencies = (
+			);
+			productName = VoyatekTestUITests;
+			productReference = EDA0F6632D6917AD005587AB /* VoyatekTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA0F63B2D6917AA005587AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					EDA0F6422D6917AA005587AB = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					EDA0F6582D6917AD005587AB = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = EDA0F6422D6917AA005587AB;
+					};
+					EDA0F6622D6917AD005587AB = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = EDA0F6422D6917AA005587AB;
+					};
+				};
+			};
+			buildConfigurationList = EDA0F63E2D6917AA005587AB /* Build configuration list for PBXProject "VoyatekTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA0F63A2D6917AA005587AB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				ED3D44112D696AB4002507A0 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EDA0F6442D6917AA005587AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA0F6422D6917AA005587AB /* VoyatekTest */,
+				EDA0F6582D6917AD005587AB /* VoyatekTestTests */,
+				EDA0F6622D6917AD005587AB /* VoyatekTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA0F6412D6917AA005587AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA0F6572D6917AD005587AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA0F6612D6917AD005587AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA0F63F2D6917AA005587AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA0F6552D6917AD005587AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA0F65F2D6917AD005587AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA0F65B2D6917AD005587AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA0F6422D6917AA005587AB /* VoyatekTest */;
+			targetProxy = EDA0F65A2D6917AD005587AB /* PBXContainerItemProxy */;
+		};
+		EDA0F6652D6917AD005587AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA0F6422D6917AA005587AB /* VoyatekTest */;
+			targetProxy = EDA0F6642D6917AD005587AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDA0F66D2D6917AD005587AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQUGQ94G5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoyatekTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = waris.VoyatekTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA0F66E2D6917AD005587AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQUGQ94G5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoyatekTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = waris.VoyatekTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDA0F66F2D6917AD005587AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDA0F6702D6917AD005587AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA0F6722D6917AD005587AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQUGQ94G5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = waris.VoyatekTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoyatekTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoyatekTest";
+			};
+			name = Debug;
+		};
+		EDA0F6732D6917AD005587AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQUGQ94G5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = waris.VoyatekTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoyatekTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoyatekTest";
+			};
+			name = Release;
+		};
+		EDA0F6752D6917AD005587AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQUGQ94G5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = waris.VoyatekTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoyatekTest;
+			};
+			name = Debug;
+		};
+		EDA0F6762D6917AD005587AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQUGQ94G5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = waris.VoyatekTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoyatekTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA0F63E2D6917AA005587AB /* Build configuration list for PBXProject "VoyatekTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA0F66F2D6917AD005587AB /* Debug */,
+				EDA0F6702D6917AD005587AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA0F66C2D6917AD005587AB /* Build configuration list for PBXNativeTarget "VoyatekTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA0F66D2D6917AD005587AB /* Debug */,
+				EDA0F66E2D6917AD005587AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA0F6712D6917AD005587AB /* Build configuration list for PBXNativeTarget "VoyatekTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA0F6722D6917AD005587AB /* Debug */,
+				EDA0F6732D6917AD005587AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA0F6742D6917AD005587AB /* Build configuration list for PBXNativeTarget "VoyatekTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA0F6752D6917AD005587AB /* Debug */,
+				EDA0F6762D6917AD005587AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED3D44112D696AB4002507A0 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED3D44122D696AB4002507A0 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED3D44112D696AB4002507A0 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		ED3D44142D696AB4002507A0 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED3D44112D696AB4002507A0 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EDA0F63B2D6917AA005587AB /* Project object */;
+}
