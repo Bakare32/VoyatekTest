@@ -18,9 +18,7 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         setupViewOnLoad()
-        
         viewModel.fetchFoods()
     }
     
@@ -31,13 +29,14 @@ class HomeViewController: UIViewController {
                       leading: view.leadingAnchor,
                       bottom: view.bottomAnchor,
                       trailing: view.trailingAnchor, padding: .init(top: 20, left: 0, bottom: 0, right: 0))
+        
+        
         setupTableView()
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(addTapped))
         layout.addView.addGestureRecognizer(tapGesture)
         layout.addView.isUserInteractionEnabled = true
-        
-       
+
         bind()
     }
     
@@ -62,7 +61,6 @@ class HomeViewController: UIViewController {
             DispatchQueue.main.async {
                 self?.layout.foodTable.reloadData()
             }
-           
         }
     }
 

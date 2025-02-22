@@ -71,7 +71,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 tabBarController.viewControllers = [
                     homeVC, generatorVC, addVC, favouriteVC, plannerVC
                 ]
-                
+    
+        if #available(iOS 15.0, *) {
+            let appearance = UITabBarAppearance()
+            appearance.configureWithOpaqueBackground() 
+            appearance.backgroundColor = UIColor(red: 1.00, green: 1.00, blue: 1.00, alpha: 1.00)
+            tabBarController.tabBar.standardAppearance = appearance
+            tabBarController.tabBar.scrollEdgeAppearance = appearance
+        } else {
+            tabBarController.tabBar.barTintColor = UIColor.blue
+        }
+
+
                 // Set up the window
                 window = UIWindow(windowScene: windowScene)
                 window?.rootViewController = tabBarController
